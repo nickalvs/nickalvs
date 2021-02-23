@@ -49,4 +49,13 @@ html * {
 #rodape {
     height: 200px;
     background-color: #505050;
+    /* ALINHAMENTO DOS ÍCONES */
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    }
+
+.icones {
+    height: 100px;
+    margin: 20px;
 }
