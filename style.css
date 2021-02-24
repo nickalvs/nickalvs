@@ -1,6 +1,7 @@
 /* RESET CSS */
 html * {
-    margin:0px
+    text-decoration: none;
+    margin:0px   
 }
 
 #menu {
@@ -22,8 +23,15 @@ html * {
     margin: 20px;
 }
 
+main{
+    /* ALINHAR TEXTO */
+    text-align: center;
+    background-color: #5c5c5c;
+    color: white;
+    padding: 20px;
+}
+
 #principal {
-    height: 600px;
     background-color: #5c5c5c;
     display: flex;
     justify-content: center;
